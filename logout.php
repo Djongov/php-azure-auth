@@ -4,7 +4,8 @@ if (isset($_COOKIE['auth_cookie'])) {
     unset($_COOKIE['auth_cookie']);
     setcookie('auth_cookie', false, -1, '/', $_SERVER["HTTP_HOST"]);
 }
-// Redirect to root page
-header("location: /");
+// Redirect to logout page
+include_once 'settings.php';
+header("location: https://login.microsoftonline.com/" . Tenant_ID . "/oauth2/v2.0/logout?post_logout_redirect_uri=https://" . $_SERVER['HTTP_HOST']);
 exit;
 ?>
