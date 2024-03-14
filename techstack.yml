@@ -1,0 +1,31 @@
+repo_name: Djongov/php-azure-auth
+report_id: afcac5c50445dd0e1bab0f5ac656a7c1
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-14T15:36:06+00:00'
+requested_by: Djongov
+provider: github
+branch: main
+detected_tools_count: 2
+tools:
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/Djongov/php-azure-auth
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Djongov/php-azure-auth
+  detection_source: Repo Metadata
